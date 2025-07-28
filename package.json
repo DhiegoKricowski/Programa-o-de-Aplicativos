@@ -1,0 +1,15 @@
+{
+  "name": "programa-o-de-aplicativos",
+  "version": "1.0.0",
+  "description": "Programação de Aplicativos - Curso de Ads - Senai Pr",
+  "main": "aula0.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
