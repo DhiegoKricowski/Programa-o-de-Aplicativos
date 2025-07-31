@@ -1,8 +1,7 @@
 const prompt = require("prompt-sync")();
 
-let ValordaConta = Number(prompt("Digite o Valor da conta : "));
-let numeroClientes = Number(prompt("Digite quantas pessoas vão pagar : "));
+let totalConta = Number(prompt("Digite o valor total da conta: "));
+let qtdPessoas = Number(prompt("Digite o número de pessoas: "));
+let valorPorPessoa = totalConta / qtdPessoas;
 
-let ValorporPessoas = ValordaConta / numeroClientes;
-
-console.log(("Cada pessoa deverá pagar :") R$ValorporPessoas.toFixed(2));
+console.log(`Cada pessoa deve pagar R$${valorPorPessoa.toFixed(2)}`);
